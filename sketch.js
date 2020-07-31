@@ -28,7 +28,7 @@ function keyPressed() {
 function draw() {
 	// frequency of waves
 	if (frameCount % 20 === 0) {
-		buffer1[round(xoff)][200] = 500;
+		buffer1[round(xoff) % width][height / 2] = 500;
 	}
 
 	background(0);
@@ -45,9 +45,9 @@ function draw() {
 				buffer2[i][j];
 			buffer2[i][j] = buffer2[i][j] * dampening;
 			let index = (i + j * width) * 4;
-			// pixels[index + 0] = buffer2[i][j];
+			pixels[index + 0] = buffer2[i][j];
 			pixels[index + 1] = buffer2[i][j];
-			// pixels[index + 2] = buffer2[i][j];
+			pixels[index + 2] = buffer2[i][j];
 		}
 	}
 	updatePixels();
@@ -56,12 +56,10 @@ function draw() {
 	buffer1 = buffer2;
 	buffer2 = temp;
 
-	// speed of sprite
-	// 2: same speed as waves
-	// 1: super sonic
-	// 3: sub sonic
-	if (frameCount % 2 === 0) {
-		xoff += 1.4;
-	}
-	ellipse(xoff, 200, 5, 5);
+	// speed of sprite ; mach1 speed is 0.7pixels per frame
+	// sub sonic : xoff += 0.4
+	// same speed as waves xoff += 0.7
+	// super sonic xoff += 1
+	xoff += 0.7;
+	ellipse(xoff % width, width / 2, 5, 5);
 }
