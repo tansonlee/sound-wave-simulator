@@ -4,7 +4,7 @@
 
 Made with JavaScript and visualized with the p5.js library
 
-<img src="assets/ripples.gif" width="400px" align="left">
+<img src="assets/ripples.gif" width="400px">
 
 This wave simulation uses the algorithm from the article linked to at the bottom and renders using pixel value manipulation. The rings represent peaks of the waves which reflect off the sides of the canvas. This can simulate any type of wave such as a water wave but I looked at it in terms of a sound wave. This can visualize many phenomena of sound waves.
 
