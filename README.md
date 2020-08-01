@@ -14,9 +14,17 @@ Made with JavaScript and visualized with the p5.js library
 
 At subsonic speeds, the **Doppler Effect** can be visualized. When the sprite moves at a speed slower than the waves, the waves that build up in front of the sprite are closer together than those behind the sprite. In other words, the frequency of the waves in front of the sprite are higher than those behind. When a car passes by, we hear the pitch of the sound the car makes drop. THis is because the car is moving much like the sprite moves which causes the sound waves in front of the car to have a higher frequency and thus pitch than the waves behind.
 
+---
+
+### Mach 1
+
 <img src="assets/sonic.gif" width="270px"><img src="assets/sonic.png" width="270px"><img src="assets/jet.jpg" width="270px" height="270px">
 
 When the sprite moves at the speed of the wave, a pressure wave can be seen. In front of the sprite there is a collection of all the peaks of the waves which forms a pressure wave. This is also known as a shock wave and creates the sonic boom sound in fighter jets.
+
+---
+
+### Supersonic
 
 <img src="assets/supersonic.gif" width="270px"><img src="assets/supersonic.png" width="270px"><img src="assets/bullet.jpg" width="270px" height="270px">
 
