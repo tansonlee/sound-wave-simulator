@@ -6,7 +6,7 @@ Made with JavaScript and visualized with the p5.js library
 
 <img src="assets/ripples.gif" width="400px">
 
-This wave simulation uses the algorithm from the article linked to at the bottom and renders using pixel value manipulation. The rings represent peaks of the waves which reflect off the sides of the canvas. This can simulate any type of wave such as a water wave but I looked at it in terms of a sound wave. This can visualize many phenomena of sound waves.
+This wave simulation uses the algorithm from the article linked to at the bottom and renders using pixel value manipulation. The rings represent peaks of the waves which reflect off the sides of the canvas. This can simulate any type of wave such as a water wave but I looked at it in terms of a sound wave to visualize many of its phenomena.
 
 ---
 
@@ -14,7 +14,7 @@ This wave simulation uses the algorithm from the article linked to at the bottom
 
 <img src="assets/subsonic.gif" width="400px"><img src="assets/subsonic.png" width="400px">
 
-At subsonic speeds, the **Doppler Effect** can be visualized. When the sprite moves at a speed slower than the waves, the waves that build up in front of the sprite are closer together than those behind the sprite. In other words, the frequency of the waves in front of the sprite are higher than those behind. When a car passes by, we hear the pitch of the sound the car makes drop. THis is because the car is moving much like the sprite moves which causes the sound waves in front of the car to have a higher frequency and thus pitch than the waves behind.
+At subsonic speeds, the **Doppler Effect** can be visualized. When the sprite moves at a speed slower than the waves, the waves that build up in front of the sprite are closer together than those behind the sprite. In other words, the frequency of the waves in front of the sprite are higher than those behind. When a car passes by, we hear the pitch of the sound the car makes drop. This is because the car is moving much like the sprite moves which causes the sound waves in front of the car to have a higher frequency and pitch than the waves behind.
 
 ---
 
