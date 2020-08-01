@@ -10,7 +10,7 @@ Made with JavaScript and visualized with the p5.js library
 
 ### Subsonic
 
-<img src="assets/subsonic.gif" width="400px"><img src="assets/subsonic.png" width="400px">
+<img src="assets/subsonic.gif" width="400px"><img src="assets/subsonic.png" width="400px" align="left">
 
 At subsonic speeds, the **Doppler Effect** can be visualized. When the sprite moves at a speed slower than the waves, the waves that build up in front of the sprite are closer together than those behind the sprite. In other words, the frequency of the waves in front of the sprite are higher than those behind. When a car passes by, we hear the pitch of the sound the car makes drop. THis is because the car is moving much like the sprite moves which causes the sound waves in front of the car to have a higher frequency and thus pitch than the waves behind.
 
