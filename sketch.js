@@ -2,6 +2,11 @@ let buffer2;
 let buffer1;
 
 let xoff = 0;
+// speed of sprite ; mach1 speed is 0.7pixels per frame
+// sub sonic : xoff += 0.4
+// same speed as waves xoff += 0.7
+// super sonic xoff += 0.8
+const iterator = 0.7;
 
 let dampening = 0.999;
 
@@ -56,10 +61,6 @@ function draw() {
 	buffer1 = buffer2;
 	buffer2 = temp;
 
-	// speed of sprite ; mach1 speed is 0.7pixels per frame
-	// sub sonic : xoff += 0.4
-	// same speed as waves xoff += 0.7
-	// super sonic xoff += 1
-	xoff += 0.7;
+	xoff += iterator;
 	ellipse(xoff % width, width / 2, 5, 5);
 }
