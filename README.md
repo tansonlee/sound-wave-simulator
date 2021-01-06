@@ -2,6 +2,8 @@
 
 ### This sound wave simulator is able to visualize phenomena which occur below, at and above the speed of sound
 
+Link to hosted project: [Wave Simulator](https://tansonlee.github.io/sound-wave-simulator/)
+
 Made with JavaScript and visualized with the p5.js library
 
 <img src="assets/ripples.gif" width="400px">
